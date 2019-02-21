@@ -1,0 +1,50 @@
+.container-fluid {
+
+}
+
+h1 {
+  /* font-size: 56px; */
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.headline {
+  margin: 50px 0px 25px;
+}
+
+.section {
+  margin: 15px 0px;
+  font-size: 24px;
+  border-left: 10px solid #33D6B4;
+  padding-left: 25px;
+}
+
+.section-2 {
+  border-left: 10px solid #F1A443;
+}
+
+.section-3 {
+  border-left: 10px solid #7858A3;
+}
+
+.section-4 {
+  border-left: 10px solid #D92740;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item-title {
+  font-weight: 700
+}
+
+.item-description {
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+}
