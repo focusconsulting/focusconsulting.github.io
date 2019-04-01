@@ -5,18 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <meta name="description" content="Focus Consulting - Software Development">
-  <meta name="keywords" content="Focus Consulting - Software Development">
+  <meta name="keywords" content="Focus Consulting - Software Development, Software Consulting, Software Architecture">
   <meta name="author" content="">
 
   <title>Focus Consulting - Software Development</title>
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- font -->
+  <link rel="stylesheet" href="https://use.typekit.net/zay8gyq.css">
 
   <!-- styles -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -30,108 +29,99 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css" type="text/css">
 
+  <!-- Start of Async Drift Code -->
+  <script>
+  "use strict";
+
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('k4fhsngn8m6w');
+  </script>
+  <!-- End of Async Drift Code -->
+
 </head>
 <body>
 
   <div class="container">
-
-    <div class="headline">
-      <h4>Hi! We're Focus Consulting.</h4>
-      <h1>We'll Help You Build Better Software</h1>
-      <hr>
+    <div class="header">
+      <div class="logo">focus consulting</div>
+    </div>
+    <div class="hero">
+      <div class="hero-line-1">We'll Help <b>You</b></div>
+      <div class="hero-line-2">Build Better Software</div>
     </div>
     <div class="row">
-      <div class="col-md-12 section section-3">
-        <h2>What we're working on</h2>
-        <div class="item">
-          <div class="text-muted item-title">
-            Corporate Learning
-          </div>
-          <div class="item-description">
-            Building new state of the art corporate learning platform with 500K user base.
-          </div>
+      <div class="col-md-12 section">
+        <div class="section-title section-color-blue">
+          Working On
         </div>
         <div class="item">
-          <div class="text-muted item-title">
-            Early Education
-          </div>
-          <div class="item-description">
-            Complex assessment and grading tools for mid-size learning company.
-          </div>
+          <div class="item-title">Corporate Learning</div>
+          <div class="item-description">Building new state of the art corporate learning platform with 500K user base.</div>
         </div>
         <div class="item">
-          <div class="text-muted item-title">
-            Government Services
-          </div>
-          <div class="item-description">
-            Helping improve government health services.
-          </div>
+          <div class="item-title">Government Services</div>
+          <div class="item-description">Helping improve government health services.</div>
+        </div>
+        <div class="item">
+          <div class="item-title">Early Education</div>
+          <div class="item-description">Complex assessment and grading tools for mid-size learning company.</div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-12 section section-2">
-        <h2>Services</h2>
-        <div class="item">
-          <div class="text-muted item-title">
-            Prototyping
-          </div>
-          <div class="item-description">
-            Quick prototypes in 2 - 4 weeks.
-          </div>
+      <div class="col-md-12 section">
+        <div class="section-title section-color-red">
+          Let us help you with
         </div>
         <div class="item">
-          <div class="text-muted item-title">
-            Development
-          </div>
-          <div class="item-description">
-            Platforms, applications & integrations.
-          </div>
+          <div class="item-title">Prototyping</div>
+          <div class="item-description">Test and validate your ideas with quick, mobile first prototypes.</div>
         </div>
         <div class="item">
-          <div class="text-muted item-title">
-            Design
-          </div>
-          <div class="item-description">
-            Network of design collaborators.
-          </div>
+          <div class="item-title">Development</div>
+          <div class="item-description">Platforms, APIs, applications & integrations.</div>
+        </div>
+        <div class="item">
+          <div class="item-title">Design</div>
+          <div class="item-description">Network of design collaborators.</div>
+        </div>
+        <div class="item">
+          <div class="item-title">Technical Strategy</div>
+          <div class="item-description">Guidance on technology stack and software processes.</div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-12 section">
-        <h2>Expertise</h2>
+      <div class="col-md-12 section">
+        <div class="section-title section-color-green">Our expertise</div>
         <div class="item">
-          <div class="text-muted item-title">
-            Web Development
-          </div>
-          <div class="item-description">
-            React / Node
-          </div>
+          <div class="item-title">Web Development</div>
+          <div class="item-description">Node, React, Angular, Python</div>
         </div>
         <div class="item">
-          <div class="text-muted item-title">
-            Mobile Development
-          </div>
-          <div class="item-description">
-            React Native
-          </div>
+          <div class="item-title">Mobile Development</div>
+          <div class="item-description">React Native, iOS, Android</div>
         </div>
         <div class="item">
-          <div class="text-muted item-title">
-            Infrastructure
-          </div>
-          <div class="item-description">
-            AWS, Docker, Terraform
-          </div>
+          <div class="item-title">Infrastructure</div>
+          <div class="item-description">AWS, Docker, Terraform</div>
         </div>
-      </div>            
-    </div>    
-    <div class="row mt-4 mb-4">
-      <div class="col-sm-12">
-        <h2>Contact Us</h2>
-        <div>email: hi @ focusconsulting.io<div>
-        <div>phone: (202) 780-7431</div>
       </div>
     </div>
   </div>
