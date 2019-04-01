@@ -18,7 +18,7 @@ h2 {
 }
 
 .header {
-  margin: 25px 0px 150px;
+  margin: 25px 0px 50px;
 }
 
 .logo {
@@ -30,33 +30,33 @@ h2 {
 }
 
 .hero {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .hero-line-1 {
-  font-size: 48px;
-  line-height: 58px;
-  letter-spacing: -1.2px;
+  font-size: 32px;
+  /* line-height: 58px;
+  letter-spacing: -1.2px; */
 }
 
 .hero-line-2 {
   font-weight: 700;
-  font-size: 70px;
-  line-height: 88px;
+  font-size: 40px;
+  /* line-height: 88px; */
   /* letter-spacing: -2px; */
 }
 
 .section {
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 
 .section-title {
   font-weight: 500;
-  font-size: 35px;
+  font-size: 28px;
   /* line-height: 45px; */
   /* letter-spacing: -0.5; */
   display: inline-block;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .section-color-blue {
@@ -76,16 +76,17 @@ h2 {
 }
 
 .item-title {
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 55px;
+  font-weight: 500;
+  font-size: 32px;
+  /* line-height: 55px; */
   /* letter-spacing: -1.2; */
 }
 
 .item-description {
   font-weight: 300;
   font-size: 24px;
-  line-height: 36px;
+  /* font-style: italic; */
+  /* line-height: 36px; */
 }
 
 li {
