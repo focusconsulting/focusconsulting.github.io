@@ -23,8 +23,8 @@ h2 {
 
 .logo {
   font-weight: 700;
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 40px;
+  /* line-height: 58px; */
   letter-spacing: -1.2px;
   color: #F01C4F;
 }
@@ -50,15 +50,6 @@ h2 {
   margin-bottom: 50px;
 }
 
-.section-title {
-  font-weight: 500;
-  font-size: 28px;
-  /* line-height: 45px; */
-  /* letter-spacing: -0.5; */
-  display: inline-block;
-  margin-bottom: 25px;
-}
-
 .section-color-blue {
   border-bottom: 7px solid #3382F5;
 }
@@ -71,20 +62,29 @@ h2 {
   border-bottom: 7px solid #F01C4F;
 }
 
+.section-title {
+  font-weight: 500;
+  font-size: 32px;
+  /* line-height: 45px; */
+  /* letter-spacing: -0.5; */
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
 .item {
   margin-bottom: 15px;
 }
 
 .item-title {
-  font-weight: 500;
-  font-size: 32px;
+  font-weight: 600;
+  font-size: 28px;
   /* line-height: 55px; */
   /* letter-spacing: -1.2; */
 }
 
 .item-description {
   font-weight: 300;
-  font-size: 24px;
+  font-size: 21px;
   /* font-style: italic; */
   /* line-height: 36px; */
 }
