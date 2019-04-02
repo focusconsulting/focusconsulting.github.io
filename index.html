@@ -124,7 +124,20 @@
           <div class="item-description">AWS, Docker, Terraform</div>
         </div>
       </div>
+
+
+    </div>
+    <div class="footer">
+      <button type="button" id="contact-button" class="btn btn-outline-danger btn-lg contact-button">Get In Touch</button>
     </div>
   </div>
+
+  <script>
+    document.getElementById('contact-button').addEventListener('click', function() {
+      drift.on('ready',function(api){
+        api.sidebar.open()
+      });
+    })
+  </script>
 </body>
 </html>

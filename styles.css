@@ -89,6 +89,23 @@ h2 {
   /* line-height: 36px; */
 }
 
+.footer {
+  margin-bottom: 75px;
+}
+
+.contact-button {
+  color: #F01C4F;
+  border-color: #F01C4F;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  color: white;
+  background-color: #F01C4F;
+  border-color: #F01C4F;
+  cursor: pointer;
+}
+
 li {
   list-style-type: none;
 }
