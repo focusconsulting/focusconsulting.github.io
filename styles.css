@@ -18,6 +18,12 @@ h2 {
   /* font-size: 36px; */
 }
 
+.job-link {
+  color: black !important;
+  text-decoration: underline !important;
+  font-size: 21px !important;
+}
+
 .header {
   margin: 25px 0px 50px;
 }
@@ -60,7 +66,8 @@ h2 {
 }
 
 .section-color-red {
-  border-bottom: 7px solid #F01C4F;
+  /* border-bottom: 7px solid #F01C4F; */
+  border-bottom: 7px solid #B5CDA3;
 }
 
 .section-title {
